@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+header {
+  background-image: url('images/banner/banner3.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  
+}
+.header-items {
+  width: 30%;
+  margin-right: 230px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+.header-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.primary-button {
+  padding: 20px 25px;
+  color: #005fac;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+main {
+  margin: auto 230px;
+}
+
+/* failure section */
+.filure-section{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 130px;
+}
+.filure-content{
+    width: 40%;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.list-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+/* plan section */
+.plan-section{
+    text-align: center;
+    margin-top: 130px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.icon-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 20px;
+}
+.icon-sub-title{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+/* call-now-section */
+.call-now-section{
+    background-image: url("images/watch.png");
+    margin-top: 130px;
+    background-size: cover;
+    height: 300px;
+    border-radius: 8px;
+}
+.call-now-title{
+    font-weight: 700;
+  font-size: 40px;
+    color: #ffffff;
+    padding-top: 60px;
+    margin-left: 64px;
+}
+.call-now-section > .primary-button{
+    margin-top: 24px;
+    margin-left: 64px;
+}
+
+/* Footer */
+.footer{
+    background: #151414;
+    margin-top: 130px;
+    height: 400px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-content{
+    width: 30%;
+    margin-left: 105px;
+}
+.subs-content{
+    width: 30%;
+}
+.footer-title{
+    font-weight: 700;
+  font-size: 40px;
+}
+.footer-sub-title{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.subscribe{
+    margin-bottom: 30px;
+}
+.subs-content{
+    margin-right: -30px;
+}
+.subs-content > input{
+   padding: 20px 140px 20px 20px;
+   border-radius: 8px;
+   border: 1px solid white;
+   background-color: #151414;
+}
+.subs-content > button{
+    color: #ffffff;
+    background-color: #005fac;
+}
