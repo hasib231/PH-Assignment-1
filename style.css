@@ -74,6 +74,7 @@ main {
 }
 .failure-list > ul > li > i {
   padding: 5px;
+  color: rgb(59, 240, 59);
 }
 .list-text {
   font-weight: 400;
